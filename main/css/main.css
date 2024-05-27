@@ -1,0 +1,81 @@
+/* main.css */
+body {
+    background: #3d3939;
+    color: #fff;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    background: #332f2f;
+    border-right: 5px solid #211F1F;
+}
+
+aside .logo {
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, a:hover {
+    color: #737373;
+    transform: scale(1.02);
+}
+
+main .block {
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 75%;
+    text-align: center;
+}
+
+main .block h1 {
+    font-size: 50px;
+}
+
+main .block p {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 500px;
+}
+
+.form-control {
+    margin-top: 10px;
+}
